@@ -1,4 +1,18 @@
 {
   "name": "microblog",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "os": [
+    "darwin"
+  ],
+  "main": "app.js",
+  "languageName": "node",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.2",
+    "morgan": "~1.9.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  }
 }
